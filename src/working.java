@@ -1,5 +1,16 @@
 public class working {
     public static void main(String[] args) {
-        System.out.println("Yo Batman!  Buy me a sandwich!");
+        double radius;
+        double area;
+
+        // Step 1: Read in radius
+        radius = 20;
+
+        // Step 2: Compute area
+        area = radius * radius * 3.14159;
+
+        // Step 3: Display the area
+        System.out.println("The area of the circle of radius " +
+                radius + " is " + area);
     }
 }
